@@ -1,17 +1,35 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to the hypotenuse Calculator");
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml;
 
-Console.WriteLine("Enter the length of the first side (a):");//side a
+namespace Consoledocumation
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
 
-double a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Welcome to the hypotenuse Calculator");
 
-Console.WriteLine("Enter the length of the first side (b):");// side b
+            Console.WriteLine("Enter the length of the first side (a):");//input side a
 
-double b = Convert.ToDouble(Console.ReadLine());
+            double a = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Enter the length of the first side (b):");// inputside b
+
+            double b = Convert.ToDouble(Console.ReadLine());
 
 
-double c = Math.Sqrt((a * a) * (b * b));//equation
+            double c = Math.Sqrt((a * a) * (b * b));//equation
 
-Console.WriteLine("The length of the hypotenuse is:" + c);
+            Console.WriteLine("The length of the hypotenuse is:" + c);// outputing the equatino
 
-Console.WriteLine("Thank you for using the Hypotenuse Calculator!");
+            Console.WriteLine("Thank you for using the Hypotenuse Calculator!");
+        }
+
+    }
+
+}
