@@ -14,18 +14,18 @@ namespace Consoledocumation
 
            Console.WriteLine("Welcome to the hypotenuse Calculator");
 
-            Console.WriteLine("Enter the length of the first side (a):");
+            Console.WriteLine("Enter the length of the first side (a):");//the side of the a of the side
 
-            double a = Convert.ToDouble(Console.ReadLine());//string varialbe input for side a
+            double a = Convert.ToDouble(Console.ReadLine());//the input of the side a of the hyotenuse
 
-            Console.WriteLine("Enter the length of the first side (b):");
+            Console.WriteLine("Enter the length of the first side (b):");//the side of the b for the side
 
-            double b = Convert.ToDouble(Console.ReadLine());//string variable input for side b
+            double b = Convert.ToDouble(Console.ReadLine());//the input for the side b for the side
 
 
-            double c = Math.Sqrt((a * a) + (b * b));
+            double c = Math.Sqrt((a * a) + (b * b));// the equation for the hypotenuse math.Sqrt for the closer
 
-            Console.WriteLine("The length of the hypotenuse is:" + c);//Print the output for tehe side c
+            Console.WriteLine("The length of the hypotenuse is:" + c);//dispay the equation of the two side to one side to find the length
 
             Console.WriteLine("Thank you for using the Hypotenuse Calculator!");
 
